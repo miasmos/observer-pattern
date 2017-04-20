@@ -1,4 +1,4 @@
-var Messenger = function() {
+var Observer = function() {
 	let subjects = {};
 	return {
 		on: function(e, fn, args) {
@@ -28,4 +28,4 @@ var Messenger = function() {
 	}
 };
 
-module.exports = Messenger
+module.exports = Observer

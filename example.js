@@ -1,10 +1,10 @@
-var m = require('./Messenger'),
-	Messenger = new m();
+var o = require('./Observer'),
+	Observer = new o();
 
-Messenger.on('lul', function(callerArgs, calleeArgs) {
+Observer.on('lul', function(callerArgs, calleeArgs) {
 	console.log(callerArgs, calleeArgs)
 }, {test: 'test'});
 
-Messenger.emit('lul', {test1: 'test1'});	//logs args as above
-Messenger.off('lul');
-Messenger.emit('lul');	//does nothing
+Observer.emit('lul', {test1: 'test1'});	//logs args as above
+Observer.off('lul');
+Observer.emit('lul');	//does nothing
