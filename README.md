@@ -5,8 +5,7 @@ A simple observer pattern implementation in javascript.
   
 # Example  
 ```
-var o = require('./Observer'),  
-	Observer = new o();  
+var Observer = new (require('observer-pattern'))(),  
   
 Observer.on('lul', function(callerArgs, calleeArgs) {  
 	console.log(callerArgs, calleeArgs)  
