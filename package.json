@@ -1,8 +1,8 @@
 {
   "name": "observer-pattern",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "description": "A simple observer pattern implementation in javascript.",
-  "main": "Messenger.js",
+  "main": "Observer.js",
   "scripts": {
     "test": "mocha"
   },
