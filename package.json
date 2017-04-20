@@ -1,7 +1,7 @@
 {
   "name": "messenger-pattern",
-  "version": "1.0.0",
-  "description": "A simple messenger pattern implmentation in javascript.",
+  "version": "1.0.1",
+  "description": "A simple messenger pattern implementation in javascript.",
   "main": "Messenger.js",
   "scripts": {
     "test": "mocha"
