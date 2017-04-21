@@ -43,7 +43,7 @@ Parameters
 ```event``` (*string*) The name of the event. If no observers exist for the specified event, does nothing.  
 ```arguments``` (*optional object*) An object of arguments to pass to each callback function. Called calleeArgs above.  
   
-#License  
+# License  
 MIT License  
   
 Copyright (c) 2017 Stephen Poole  
