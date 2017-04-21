@@ -1,6 +1,6 @@
 {
   "name": "observer-pattern",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple observer pattern implementation in javascript.",
   "main": "Observer.js",
   "scripts": {
