@@ -1,4 +1,5 @@
 ![Travis CI](https://api.travis-ci.org/stephenpoole/observer-pattern.svg?branch=master)  
+
 # observer-pattern  
 A simple observer pattern implementation in javascript.  
   
@@ -32,7 +33,7 @@ Removes a registered event.
   
 Parameters  
 ```event``` (*string*) The name of the event.  
-```callback``` (*function*) A function to match. If supplied, this will remove only registered events with the specified function as their callback. If not supplied, this method will remove all registered ```event``` events.  
+```callback``` (*optional function*) A function to match. If supplied, this will remove only registered events with the specified function as their callback. If not supplied, this method will remove all registered ```event``` events.  
   
   
 **emit(** *event*, *arguments* **)**  
