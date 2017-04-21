@@ -1,3 +1,4 @@
+![Travis CI](https://api.travis-ci.org/stephenpoole/observer-pattern.svg?branch=master)  
 # observer-pattern  
 A simple observer pattern implementation in javascript.  
   
